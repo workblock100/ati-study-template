@@ -214,7 +214,17 @@
 
   <!-- GAME TAB -->
   <div class="main-tab-panel" id="panel-game">
-    <div class="game-fullscreen-container"><canvas id="gameCanvas"></canvas></div>
+    <div class="game-fullscreen-container">
+      <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="game-controls-info" aria-label="Ping pong controls">
+          <div class="control-item"><kbd>W</kbd><span>Move Up</span></div>
+          <div class="control-item"><kbd>S</kbd><span>Move Down</span></div>
+          <div class="control-item"><kbd>Space</kbd><span>Serve / Restart</span></div>
+          <div class="control-item"><kbd>P</kbd><span>Pause</span></div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Footer -->
